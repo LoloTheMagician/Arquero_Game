@@ -14,6 +14,14 @@ config/name="Godot"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[file_customization]
+
+folder_colors={
+"res://Assets/": "teal",
+"res://Scenes/": "purple",
+"res://Scripts/": "orange"
+}
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
