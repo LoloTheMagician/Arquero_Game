@@ -14,13 +14,9 @@ config/name="Godot"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[file_customization]
+[dotnet]
 
-folder_colors={
-"res://Assets/": "teal",
-"res://Scenes/": "purple",
-"res://Scripts/": "orange"
-}
+project/assembly_name="Godot"
 
 [rendering]
 

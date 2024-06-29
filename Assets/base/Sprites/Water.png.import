@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvvn21msu7w8m"
-path="res://.godot/imported/rogues.png-2b131b53bd5af37da8406ea71a96a96e.ctex"
+uid="uid://ok3don816ir4"
+path="res://.godot/imported/Water.png-62a0fa15c1e917eb5ce77e642aeed103.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/rogues.png"
-dest_files=["res://.godot/imported/rogues.png-2b131b53bd5af37da8406ea71a96a96e.ctex"]
+source_file="res://Assets/Sprites/Water.png"
+dest_files=["res://.godot/imported/Water.png-62a0fa15c1e917eb5ce77e642aeed103.ctex"]
 
 [params]
 
