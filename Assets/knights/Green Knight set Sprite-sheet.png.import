@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ivls7xbj5onq"
-path="res://.godot/imported/Potions.png-f35e29553cddb6942bc3ae64062d1ff1.ctex"
+uid="uid://b2uaiuro3lkj7"
+path="res://.godot/imported/Green Knight set Sprite-sheet.png-c8da342a5df9e19381832bf190756f59.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/base/Sprites/Potions.png"
-dest_files=["res://.godot/imported/Potions.png-f35e29553cddb6942bc3ae64062d1ff1.ctex"]
+source_file="res://Assets/knights/Green Knight set Sprite-sheet.png"
+dest_files=["res://.godot/imported/Green Knight set Sprite-sheet.png-c8da342a5df9e19381832bf190756f59.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mgb12fdoaabr"
-path="res://.godot/imported/Block Door Sheet.png-bef7861166ece4b2dcb3c3eb239c5767.ctex"
+path="res://.godot/imported/Block Door Sheet.png-290c70ec721f8efed228d438dd574ea8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Block Door/Block Door Sheet.png"
-dest_files=["res://.godot/imported/Block Door Sheet.png-bef7861166ece4b2dcb3c3eb239c5767.ctex"]
+source_file="res://Assets/base/Block Door/Block Door Sheet.png"
+dest_files=["res://.godot/imported/Block Door Sheet.png-290c70ec721f8efed228d438dd574ea8.ctex"]
 
 [params]
 
