@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=3 uid="uid://doc7l2vektjnm"]
+
+[ext_resource type="Script" path="res://Scripts/enemy.gd" id="1_65i66"]
+[ext_resource type="Texture2D" uid="uid://bvr3f11xxpdo3" path="res://Assets/monsters.png" id="1_x5366"]
+[ext_resource type="Script" path="res://Scripts/Components/hurtbox.gd" id="2_fsbma"]
+[ext_resource type="Script" path="res://Scripts/Components/health_component.gd" id="3_blxf2"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_55f11"]
+radius = 18.0
+height = 52.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0vr2k"]
+radius = 16.0312
+
+[node name="Enemy" type="CharacterBody2D"]
+script = ExtResource("1_65i66")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_x5366")
+hframes = 7
+vframes = 8
+frame = 47
+
+[node name="Hurtbox" type="Area2D" parent="Sprite"]
+position = Vector2(3, 15)
+script = ExtResource("2_fsbma")
+
+[node name="Collision" type="CollisionShape2D" parent="Sprite/Hurtbox"]
+position = Vector2(-3, -18)
+shape = SubResource("CapsuleShape2D_55f11")
+debug_color = Color(0.768627, 0.415686, 0.443137, 0.419608)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3, 15)
+shape = SubResource("CircleShape2D_0vr2k")
+
+[node name="Health_Component" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("3_blxf2")
+health = 20
+
+[connection signal="area_entered" from="Sprite/Hurtbox" to="." method="_on_hurtbox_area_entered"]

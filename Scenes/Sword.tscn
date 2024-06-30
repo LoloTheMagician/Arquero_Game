@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://bx3b7ban3u1f7"]
+
+[ext_resource type="Texture2D" uid="uid://bacvwvlg1bvg1" path="res://Assets/Wooden Sword.png" id="1_vsss6"]
+[ext_resource type="Script" path="res://Scripts/Components/hitbox.gd" id="2_cuood"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xuyot"]
+radius = 6.36396
+height = 31.1127
+
+[node name="Sword" type="Node2D"]
+scale = Vector2(0.5, 0.5)
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(6, 5)
+texture = ExtResource("1_vsss6")
+
+[node name="Hitbox" type="Area2D" parent="."]
+script = ExtResource("2_cuood")
+
+[node name="Collision" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(13, -3)
+rotation = 0.785398
+scale = Vector2(1, 1)
+shape = SubResource("CapsuleShape2D_xuyot")
